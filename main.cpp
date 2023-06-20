@@ -25,7 +25,7 @@ int main(int argc, char* args[])
 	int prevtime = 0;
 	float delta = 0.0f;
 	const Uint8* keystate;
-	SDL_Rect cameraRect = { 0,0,1380,700 };
+	SDL_Rect cameraRect = { 0,0,SCREEN_WIDTH,SCREEN_HEIGHT };
 	int levelwidth, levelheight;
 	SDL_Init(SDL_INIT_VIDEO);
 	
